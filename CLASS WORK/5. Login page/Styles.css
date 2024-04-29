@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Form Styles */
+  .form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+  }
+  
+  .anime-logo {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .anime-logo img {
+    width: 100px;
+  }
+  
+  .input-area {
+    margin-bottom: 20px;
+  }
+  
+  .form-inp input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .login-btn {
+    text-align: center;
+  }
+  
+  .submit-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #555;
+  }
+  
+  .password {
+    text-align: center;
+  }
+  
+  .password a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .password a:hover {
+    text-decoration: underline;
+  }
+  
